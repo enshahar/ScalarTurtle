@@ -1,13 +1,15 @@
 package com.enshahar.turtle.oo
 
+import java.awt.Color
+
 import scala.swing._
 import scala.swing.event.ButtonClicked
 import java.awt.image.BufferedImage
 
 import scala.language.postfixOps
-
 import com.enshahar.turtle.common
 import com.enshahar.turtle.unit._
+
 import scala.util.Random
 
 /**
@@ -72,5 +74,9 @@ object OOClient extends SimpleSwingApplication with common.Logger with common.Gr
   }
   override def moveTo(pos: common.Position) =  { prevPos = pos; }
   override def setColor(color: common.Color) = { gr.setColor(new Color(color._1, color._2, color._3)) }
-  override def clear() = { canvas.repaint() }
+  override def clear() = {
+    gr.setColor( Color.BLACK )
+    gr.drawRect( -WIDTH / 2,-HEIGHT / 2, WIDTH, HEIGHT )
+    canvas.repaint()
+  }
 }

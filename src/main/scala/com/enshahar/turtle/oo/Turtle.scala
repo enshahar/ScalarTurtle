@@ -17,10 +17,12 @@ class Turtle(log: Logger, drawer: Graphics) {
   drawer.moveTo(0,0)
 
   def move(distance: Double) = {
-    val diff = calcPosition(position, distance, angle)
+    val diff = calcPosition(distance, angle)
     position += diff
     if(penOn) {
       drawer.lineTo(position)
+    } else {
+      drawer.moveTo(position)
     }
     log(f"Move $distance%.1f = ($position, $angle, $color, $penOn)")
   }
@@ -38,7 +40,7 @@ class Turtle(log: Logger, drawer: Graphics) {
     drawer.setColor(c)
   }
 
-  private def calcPosition(p: Position, d:  Double, a: Angle): Position = (d * math.cos(a.toRadians),
+  private def calcPosition( d:  Double, a: Angle ): Position = (d * math.cos(a.toRadians),
      d * math.sin(a.toRadians))
 
   private implicit final class PositionOps(x:Position) extends Position(x._1, x._2) {
