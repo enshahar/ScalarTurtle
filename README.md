@@ -71,14 +71,14 @@ class  Turtle(log:  Logger,  drawer:  Graphics)  {
 
 `setColor`는  색을  지정합니다.  색은  `(Int,  Int,  Int)`  형태의  3-튜플로,  각각  적,  녹,  청  (빛의  3원색)  입니다.
 
-```
+```scala
     private  def  calcPosition(d:    Double,  a:  Angle):  Position  =  (d  *  math.cos(a.toRadians),
           d  *  math.sin(a.toRadians))
 ```
 
 위치  계산을  위한  도우미  메서드입니다.  `d`만큼  `a`각도로  이동하기  위해  삼각함수를  사용해  `x`  방향과  `y`  방향으로의  정사영  벡터  값을  구해서  튜플로  돌려줍니다.  
 
-```
+```scala
     private  implicit  final  class  PositionOps(x:Position)  extends  Position(x._1,  x._2)  {
         def  +(p:Position):Position  =  (_1  +  p._1,  _2  +  p._2)
         def  -(p:Position):Position  =  (_1  -  p._1,  _2  -  p._2)
@@ -117,14 +117,14 @@ object  OOClient  extends  SimpleSwingApplication  with  common.Logger  with  co
 
 (화면에  직접  그리지  않고  메모리상에서  그림을  그리기  위한)  오프스크린  버퍼를  하나  정의하기  위해  자바  AWT의  `BufferedImage`를  사용합니다.  `Graphics2D`  객체를  생성합니다.  `Graphics`를  사용하지  않는  이유는  좌표  변환을  편하게  수행하기  위해서입니다.
 
-```
+```scala
     gr.translate(WIDTH/2,  HEIGHT/2)  //  mamke  the  center  of  image  to  (0,0)
     gr.scale(1,-1)    //  reverse  the  y  coordinate
 ```
 
 `translate`는  원점을  이동해  주며,  `scale`는  `x`와  `y`  좌표에  곱해질  배율을  지정합니다.  여기서  `y`에  음수를  곱하면  좌표  방향을  뒤집는  효과가  있습니다.  데카르트  직교  좌표에서  `x`축은  *왼쪽->오른쪽*으로  커지고,  `y`축은  *아래쪽->위쪽*으로  커지지만,  일반적인  이미지  처리  좌표계에서는  `x`축이  커지는  방향은  데카르트  직교  좌표와  같지만,  `y`축이  *위쪽->아래쪽*으로  커지기  때문에,  `y`축의  부호를  뒤집어야  합니다.
 
-```
+```scala
     val  startButton  =  new  Button  {
         text  =  "Start"
     }
@@ -162,7 +162,7 @@ object  OOClient  extends  SimpleSwingApplication  with  common.Logger  with  co
 
 `startButton`에서  발생하는  이벤트를  구독합니다.
 
-```
+```scala
     reactions  +=  {
         case  ButtonClicked(b)  =>
             if(b==startButton)  {
@@ -189,7 +189,7 @@ object  OOClient  extends  SimpleSwingApplication  with  common.Logger  with  co
 
 `Logger`  트레이트에서  처리해야  하는  메소드입니다.  문자열을  콘솔에  출력합니다.
 
-```
+```scala
     //  graphics  methods
     var  prevPos:  common.Position  =  (0.0,  0.0)
     override  def  lineTo(pos:  common.Position)  =    {
