@@ -4,15 +4,12 @@ package com.enshahar.turtle.unit
   * Created by hyunsok on 2016-08-13.
   */
 object Angle {
-  implicit object AngleIsOrdered extends Ordering[Angle] {
-    def compare(a: Angle, b: Angle) = a.toRadians compare b.toRadians
-  }
-
   def apply(value: Double, unit: AngleUnit) = new Angle(value, unit)
   def apply(value: Double, unit: String) = new Angle(value, AngleUnit(unit))
 }
 
-final class Angle(val value: Double, val unit: AngleUnit) {
+final class Angle(val v: Double, val unit: AngleUnit) {
+  val value: Double = unit.normalize(v)
   def toRadians = unit.toRadians(value)
   def toDegrees = unit.toDegrees(value)
   def toMinutes = unit.toMinutes(value)

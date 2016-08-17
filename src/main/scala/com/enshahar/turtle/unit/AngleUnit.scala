@@ -20,6 +20,8 @@ sealed abstract class AngleUnit {
   def fromSeconds(value: Double): Double = value / toSecond
 
   def convert(value: Double, unit: AngleUnit): Double =  AngleUnit.convert(value, this, unit)
+
+  def normalize(value: Double): Double
 }
 
 object AngleUnit {
@@ -43,6 +45,7 @@ case object RADIAN extends AngleUnit {
   override val toDegree = 180.0 / Math.PI
   override val toMinute = 180.0 / Math.PI * 60.0
   override val toSecond = 180.0 / Math.PI * 60.0 * 60.0
+  override def normalize(value: Double): Double = value % (2 * Math.PI)
 }
 
 case object DEGREE extends AngleUnit {
@@ -51,6 +54,7 @@ case object DEGREE extends AngleUnit {
   override val toDegree = 1.0
   override val toMinute = 60.0
   override val toSecond = 3600.0
+  override def normalize(value: Double): Double = value % 360.0
 }
 
 case object MINUTE extends AngleUnit {
@@ -59,6 +63,7 @@ case object MINUTE extends AngleUnit {
   override val toDegree = 1.0 / 60.0
   override val toMinute = 1.0
   override val toSecond = 60.0
+  override def normalize(value: Double): Double = value % (360.0 * 60.0)
 }
 
 case object SECOND extends AngleUnit {
@@ -67,5 +72,6 @@ case object SECOND extends AngleUnit {
   override val toDegree = 1.0 / 60.0 / 60.0
   override val toMinute = 1.0 / 60.0
   override val toSecond = 1.0
+  override def normalize(value: Double): Double = value % (360.0 * 60.0 * 60.0)
 }
 

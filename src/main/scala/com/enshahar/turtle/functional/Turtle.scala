@@ -12,27 +12,33 @@ object Turtle {
 
   // each turtle function return new turtle state and the log string
 
-  def move(log: Logger)(st: TurtleState)(distance: Double): (TurtleState, String) = {
-    val newPosition = st.position + calcPosition(distance, st.angle)
-    val state = TurtleState( newPosition, st.angle, st.color, st.penOn )
-    ( state, f"Move $distance%.1f = $state" )
+  val move = (logAndDraw: (String, TurtleState) => Unit) => (distance: Double) => (st: TurtleState) => {
+    val state = st.copy( position = st.position + calcPosition(distance, st.angle) )
+    logAndDraw( f"Move $distance%.1f = $state", state)
+    state
   }
 
-  def turn(log: Logger)(st: TurtleState)(a: Angle): (TurtleState, String) = {
-    val state = TurtleState( st.position, st.angle + a, st.color, st.penOn )
-    ( state, f"Turn $a = $state" )
+  val turn = (logAndDraw: (String, TurtleState) => Unit) => (a: Angle) => (st: TurtleState) => {
+    val state = st.copy( angle = st.angle + a )
+    logAndDraw( f"Turn $a = $state", state)
+    state
   }
 
-  def on(log: Logger)(st: TurtleState): (TurtleState, String) = {
-    val state = TurtleState(st.position, st.angle, st.color, true)
-    (state, f"One = $state")
+  val on = (logAndDraw: (String, TurtleState) => Unit) => (st: TurtleState) => {
+    val state = st.copy( penOn = true )
+    logAndDraw( f"On = $state", state)
+    state
   }
-  def off(log: Logger)(st: TurtleState): (TurtleState, String) = {
-    val state = TurtleState(st.position, st.angle, st.color, false)
-    (state, f"Off = $state")
+
+  val off = (logAndDraw: (String, TurtleState) => Unit) => (st: TurtleState) => {
+    val state = st.copy( penOn = false )
+    logAndDraw( f"Off = $state", state)
+    state
   }
-  def setColor(log: Logger)(st: TurtleState)(color: Color): (TurtleState, String) = {
-    val state = TurtleState(st.position, st.angle, color, st.penOn)
-    (state, f"Set color = $state")
+
+  val setColor = (logAndDraw: (String, TurtleState) => Unit) => (color: Color) => (st: TurtleState) => {
+    val state = st.copy( color = color )
+    logAndDraw( f"Set color = $state", state)
+    state
   }
 }

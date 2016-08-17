@@ -14,6 +14,11 @@ class Turtle(log: Logger, drawer: Graphics) {
   private var color: Color = (0, 0, 0)
   private var penOn = false
 
+  def getPosition = position
+  def getAngle = angle
+  def getColor = color
+  def getPenStatus = penOn
+
   drawer.moveTo(0,0)
 
   def move(distance: Double) = {
@@ -32,19 +37,12 @@ class Turtle(log: Logger, drawer: Graphics) {
     log(f"Turn $a = ($position, $angle, $color, $penOn)")
   }
 
-  def On(): Unit = penOn = true
-  def Off(): Unit = penOn = false
+  def on(): Unit = { penOn = true; log(f"On = ($position, $angle, $color, $penOn)") }
+  def off(): Unit = { penOn = false; log(f"Off = ($position, $angle, $color, $penOn)") }
 
   def setColor(c: Color) = {
     color = c
     drawer.setColor(c)
-  }
-
-  private def calcPosition( d:  Double, a: Angle ): Position = (d * math.cos(a.toRadians),
-     d * math.sin(a.toRadians))
-
-  private implicit final class PositionOps(x:Position) extends Position(x._1, x._2) {
-    def +(p:Position):Position = (_1 + p._1, _2 + p._2)
-    def -(p:Position):Position = (_1 - p._1, _2 - p._2)
+    log(f"Set color = ($position, $angle, $color, $penOn)")
   }
 }
