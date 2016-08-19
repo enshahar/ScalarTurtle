@@ -72,11 +72,6 @@ class  Turtle(log:  Logger,  drawer:  Graphics)  {
 
 `setColor`는  색을  지정합니다.  색은  `(Int,  Int,  Int)`  형태의  3-튜플로,  각각  적,  녹,  청  (빛의  3원색)  입니다.
 
-```scala
-    private  def  calcPosition(d:    Double,  a:  Angle):  Position  =  (d  *  math.cos(a.toRadians),
-          d  *  math.sin(a.toRadians))
-```
-
 ## 도우미 메서드와 타입
 
 `com.enshahar.turtle.common`의 패키지 객체 안에 `Color`와 `Position` 타입고, 위치  계산을  위한  도우미  메서드가 들어 있습니다.  `d`만큼  `a`각도로  이동하기  위해  삼각함수를  사용해  `x`  방향과  `y`  방향으로의  정사영  벡터  값을  구해서  튜플로  돌려줍니다.  
