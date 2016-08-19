@@ -35,6 +35,8 @@ turtle.On()
 }
 ```
 
+![실행결과](https://github.com/enshahar/ScalarTurtle/blob/master/%EC%8B%A4%ED%96%89%EA%B2%B0%EA%B3%BC%EC%BA%A1%EC%B2%98.PNG)
+
 ##  functional turtle
 
 [함수형으로 구현한 거북이](https://github.com/enshahar/ScalarTurtle/tree/master/src/main/scala/com/enshahar/turtle/functional)는 상태를 별도의 케이스클래스로 만들어서 불변 객체에 담습니다. 따라서, 클라이언트는 매번 `move`등의 명령을 실행할 때마다 새로 생기는 상태 객체를 반환받아서 활용해야 합니다. 이를 편리하게 하기 위해 `|>`라는 파이프 연산자를 지원하게 만들었습니다. 
