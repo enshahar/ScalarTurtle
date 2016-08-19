@@ -38,7 +38,7 @@ turtle.On()
 ##  functional turtle
 
 [함수형으로 구현한 거북이](https://github.com/enshahar/ScalarTurtle/tree/master/src/main/scala/com/enshahar/turtle/functional)는 상태를 별도의 케이스클래스로 만들어서 불변 객체에 담습니다. 따라서, 클라이언트는 매번 `move`등의 명령을 실행할 때마다 새로 생기는 상태 객체를 반환받아서 활용해야 합니다. 이를 편리하게 하기 위해 `|>`라는 파이프 연산자를 지원하게 만들었습니다. 
-이를 활용하면 다음과 같이 거북이를 조종할 수 있습니다.
+이를 활용하고, 고차함수를 사용해 `repeat`등의 함수를 구현하면 다음과 같이 거북이를 조종할 수 있습니다.
 
 ```scala
 turtle |> on |> repeat(360){ (s:TurtleState) => s |> changeColorAndDrawRect |> turn(1 deg) } |> flush
