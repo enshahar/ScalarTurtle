@@ -23,7 +23,7 @@ class  Turtle(log:  Logger,  drawer:  Graphics)  {
     private  var  penOn  =  false
 ```
 
-맨  처음엔  `(0,0)`으로  위치시키고,  머리는  `0`(오른쪽  방향)  도(degree)로  설정합니다.  `0.0  deg`에서  `deg`는  각도를  지정하는  후위  연산자입니다.  이에  대해서는  `com.enshahar.turtle.unit`  패키지  디렉터리에  있는  `readme.md`에서  설명하겠습니다.
+맨  처음엔  `(0,0)`으로  위치시키고,  머리는  `0`(오른쪽  방향)  도(degree)로  설정합니다.  `0.0  deg`에서  `deg`는  각도를  지정하는  후위  연산자입니다.  이에  대해서는  `com.enshahar.turtle.unit`  패키지  디렉터리에  있는  [`readme.md`](https://github.com/enshahar/ScalarTurtle/blob/master/src/main/scala/com/enshahar/turtle/unit/readme.md)에서  설명하겠습니다.
 
 ```scala
     drawer.moveTo(0,0)
