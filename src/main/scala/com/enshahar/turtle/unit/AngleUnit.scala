@@ -8,7 +8,9 @@ sealed abstract class AngleUnit {
   val toDegree: Double
   val toMinute: Double
   val toSecond: Double
+  
   val name: String
+  
   def toRadians(value: Double): Double = toRadian * value
   def toDegrees(value: Double): Double = toDegree * value
   def toMinutes(value: Double): Double = toMinute * value
