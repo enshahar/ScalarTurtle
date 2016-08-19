@@ -56,16 +56,17 @@ class  Turtle(log:  Logger,  drawer:  Graphics)  {
 `turn`은  거북이의  머리  방향을  바꿉니다.  현재  각도  대비  증가  또는  감소할  **상대적**  각도를  지정합니다.  단위는  일반적인  각도(예:  `1  deg`),  라디안(예:  `Math.PI  rad`),  분(예:  `55  mins`),  초(예:  `-35  secs`)를  지정할  수  있습니다.  현재로써는  `turn`해도  거북이의  내부  상태만  바뀌고,  화면상  변화는  없습니다.
 
 ```scala
-    def  On():  Unit  =  penOn  =  true
-    def  Off():  Unit  =  penOn  =  false
+    def on(): Unit = { penOn = true; log(f"On = ($position, $angle, $color, $penOn)") }
+    def off(): Unit = { penOn = false; log(f"Off = ($position, $angle, $color, $penOn)") }
 ```
 
-`On`과  `Off`는  펜을  켜고  끕니다.
+`on`과  `off`는  펜을  켜고  끕니다.
 
 ```scala
     def  setColor(c:  Color)  =  {
         color  =  c
         drawer.setColor(c)
+        log(f"Set color = ($position, $angle, $color, $penOn)")
     }
 ```
 
@@ -76,27 +77,41 @@ class  Turtle(log:  Logger,  drawer:  Graphics)  {
           d  *  math.sin(a.toRadians))
 ```
 
-위치  계산을  위한  도우미  메서드입니다.  `d`만큼  `a`각도로  이동하기  위해  삼각함수를  사용해  `x`  방향과  `y`  방향으로의  정사영  벡터  값을  구해서  튜플로  돌려줍니다.  
+## 도우미 메서드와 타입
+
+`com.enshahar.turtle.common`의 패키지 객체 안에 `Color`와 `Position` 타입고, 위치  계산을  위한  도우미  메서드가 들어 있습니다.  `d`만큼  `a`각도로  이동하기  위해  삼각함수를  사용해  `x`  방향과  `y`  방향으로의  정사영  벡터  값을  구해서  튜플로  돌려줍니다.  
 
 ```scala
-    private  implicit  final  class  PositionOps(x:Position)  extends  Position(x._1,  x._2)  {
-        def  +(p:Position):Position  =  (_1  +  p._1,  _2  +  p._2)
-        def  -(p:Position):Position  =  (_1  -  p._1,  _2  -  p._2)
-    }
-}
+package object common {
+  type Color = (Int, Int, Int)
+  type Position = (Double, Double)
+
+  import com.enshahar.turtle.unit._
+
+  def calcPosition( d:  Double, a: Angle ): Position = (d * math.cos(a.toRadians),
+    d * math.sin(a.toRadians))
 ```
 
-스칼라는  두  튜플  사이의  덧셈을  지원하지  않기  때문에,  여기  간단하게  `+`  연산을  지원하는  암시적  클래스를  만들어서  연산이  가능하게  만들었습니다.  `move`함수  안에서  `position  +=  diff`라고  하면,  실제로는  `position  =  PositionOps(position).+(diff)`가  실행됩니다.
+
+또한, 스칼라는  두  튜플  사이의  덧셈을  지원하지  않기  때문에,  여기에  간단하게  `+`  연산을  지원하는  암시적  클래스를  만들어서  연산이  가능하게  만들었습니다.  `move`함수  안에서  `position  +=  diff`라고  하면,  실제로는  `position  =  PositionOps(position).+(diff)`가  실행됩니다.
+
+```scala
+  implicit final class PositionOps(x:Position) extends Position(x._1, x._2) {
+    def +(p:Position):Position = (_1 + p._1, _2 + p._2)
+    def -(p:Position):Position = (_1 - p._1, _2 - p._2)
+  }
+}
+```
 
 ##  oo  turtle  클라이언트
 
 간단하게  스윙  애플리케이션을  만들었습니다.
 
 ```scala
-object  OOClient  extends  SimpleSwingApplication  with  common.Logger  with  common.Graphics  {
+object OOClient extends SimpleSwingApplication with common.StdoutLogger with common.AWTGraphics {
 ```
 
-`SimpleSwingApplication`은  간단한  스윙  애플리케이션을  위한  추상  클래스이고,  `Logger`와  `Graphics`는  거북이  인스턴스  생성시  필요한  트레이트입니다.  `Graphics`가  `AWT`에도  있기  때문에,  임포트할  때  `common`까지만  임포트해서  구별을  했습니다.
+`SimpleSwingApplication`은  간단한  스윙  애플리케이션을  위한  추상  클래스이고,  `StdoutLogger`와  `AWTGraphics`는  거북이  인스턴스  생성시  필요한  트레이트인 `Logger`와 `Graphics`를 한번 더 감싼 트레이트입니다. `AWTGraphics`는 AWT를 사용해 그림을 그리고, `StdoutLogger`는 표준 출력에 로그를 표시합니다.
 
 ```scala
     val  HEIGHT  =    480
@@ -115,7 +130,7 @@ object  OOClient  extends  SimpleSwingApplication  with  common.Logger  with  co
     val  gr  =  img.createGraphics()
 ```
 
-(화면에  직접  그리지  않고  메모리상에서  그림을  그리기  위한)  오프스크린  버퍼를  하나  정의하기  위해  자바  AWT의  `BufferedImage`를  사용합니다.  `Graphics2D`  객체를  생성합니다.  `Graphics`를  사용하지  않는  이유는  좌표  변환을  편하게  수행하기  위해서입니다.
+(화면에  직접  그리지  않고  메모리상에서  그림을  그리기  위한)  오프스크린  버퍼를  하나  정의하기  위해  자바  AWT의  `BufferedImage`를  사용합니다.  `Graphics2D`  객체를  생성합니다. AWT의 `Graphics`를  사용하지  않는  이유는  좌표  변환을  편하게  수행하기  위해서입니다.
 
 ```scala
     gr.translate(WIDTH/2,  HEIGHT/2)  //  mamke  the  center  of  image  to  (0,0)
@@ -182,29 +197,53 @@ object  OOClient  extends  SimpleSwingApplication  with  common.Logger  with  co
 
 이벤트  처리  루틴을  정의합니다.  `ButtonClicked`가  발생했다면  버튼이  `startButton`인지  확인하고,  간단하게  터틀에  명령을  내려서  그림을  그립니다.  `300`  크기의  정4각형을  `1`도씩  바꿔가면서  `360`개  그립니다.
 
-```scala
-    //  logger  method
-    override  def  apply(s:String):  Unit  =  println(s)
-```
-
-`Logger`  트레이트에서  처리해야  하는  메소드입니다.  문자열을  콘솔에  출력합니다.
+## Logger, StdoutLogger 
 
 ```scala
-    //  graphics  methods
-    var  prevPos:  common.Position  =  (0.0,  0.0)
-    override  def  lineTo(pos:  common.Position)  =    {
-        gr.drawLine(prevPos._1.toInt,  prevPos._2.toInt,  pos._1.toInt,  pos._2.toInt)
-        prevPos  =  pos
-    }
-    override  def  moveTo(pos:  common.Position)  =    {  prevPos  =  pos;  }
-    override  def  setColor(color:  common.Color)  =  {  gr.setColor(new  Color(color._1,  color._2,  color._3))  }
-    override  def  clear()  =  {  
-        gr.setColor(  Color.BLACK  )
-        gr.drawRect(  -WIDTH  /  2,-HEIGHT  /  2,  WIDTH,  HEIGHT  )
-        canvas.repaint()  
-     }
+trait Logger {
+  def apply(log: String):Unit
 }
 
+trait StdoutLogger extends Logger {
+  // logger method
+  override def apply(s:String): Unit = println(s)
+}
 ```
 
-`Graphics`  트레이트에서  처리해야  하는  메소드들입니다.  직전  위치를  항상  `prevPos`에  저장해  두고,  `lineTo`를  하면  직전위치부터  지정한  위치까지의  선을  그리며,  `moveTo`를  하면  `prevPos`만  갱신하고,  `setColor`를  하면  `Graphics2D`의  색을  설정합니다.  `clear`는 화면을 검은색으로 다시 칠합니다.
+`Logger`  트레이트와 `StdoutLogger`입니다. `StdoutLogger`의 `apply`는 문자열을  콘솔에  출력합니다.
+
+## 
+```scala
+trait Graphics {
+  /* The position is general Cartesian coordinate and have no limit
+     Implementor can crop the drawing action or just rescale the canvas as freely
+   */
+  def lineTo(pos: Position)
+  def moveTo(pos: Position)
+  def setColor(color: Color)
+  def clear()
+}
+
+trait AWTGraphics extends Graphics {
+  val gr: Graphics2D
+  val canvas: Panel
+  val WIDTH : Int
+  val HEIGHT: Int
+
+  // graphics methods
+  var prevPos: Position = (0.0, 0.0)
+  override def lineTo(pos: Position) =  {
+    gr.drawLine(prevPos._1.toInt, prevPos._2.toInt, pos._1.toInt, pos._2.toInt)
+    prevPos = pos
+  }
+  override def moveTo(pos: Position) =  { prevPos = pos; }
+  override def setColor(color: Color) = { gr.setColor(new java.awt.Color(color._1, color._2, color._3)) }
+  override def clear() = {
+    gr.setColor( java.awt.Color.BLACK )
+    gr.drawRect( -WIDTH / 2,-HEIGHT / 2, WIDTH, HEIGHT )
+    canvas.repaint()
+  }
+}
+```
+
+`Graphics`  트레이트와, AWT상에서 `Graphics`를 구현한 `AWTGraphics` 트레이트입니다. 직전  위치를  항상  `prevPos`에  저장해  두고,  `lineTo`를  하면  직전위치부터  지정한  위치까지의  선을  그리며,  `moveTo`를  하면  `prevPos`만  갱신하고,  `setColor`를  하면  `Graphics2D`의  색을  설정합니다.  `clear`는 화면을 검은색으로 다시 칠합니다. `AWTGraphics`를 믹스인하는 클래스에서는 `gr`, `canvas`, `WIDTH`, `HEIGHT`를 정의해 줘야, 이 `AWTGraphis`에 있는 로직이 잘 작동할 수 있습니다.
