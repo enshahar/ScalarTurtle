@@ -8,7 +8,9 @@ sealed abstract class AngleUnit {
   val toDegree: Double
   val toMinute: Double
   val toSecond: Double
+  
   val name: String
+  
   def toRadians(value: Double): Double = toRadian * value
   def toDegrees(value: Double): Double = toDegree * value
   def toMinutes(value: Double): Double = toMinute * value
@@ -74,4 +76,3 @@ case object SECOND extends AngleUnit {
   override val toSecond = 1.0
   override def normalize(value: Double): Double = value % (360.0 * 60.0 * 60.0)
 }
-

@@ -1,0 +1,359 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+26 items
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\common\Logger.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\common\Logger.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\oo\Turtle$Logger.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\oo\Turtle.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\Angle$.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\Angle$AngleIsOrdered$.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\Angle.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\AngleConversion$class.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\AngleConversion.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\AngleUnit$.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\AngleUnit.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\DEGREE$.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\DEGREE.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\MINUTE$.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\MINUTE.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\RADIAN$.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\RADIAN.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\SECOND$.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\SECOND.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\package$.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\package$AngleDouble$.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\package$AngleDouble.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\package$AngleInt$.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\package$AngleInt.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\package$AngleLong$.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\package$AngleLong.class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\package.class
+binary dependencies:
+10 items
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\common\Logger.scala -> C:\APP\Java\jdk1.8.0_77\jre\lib\rt.jar
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\common\Logger.scala -> C:\Users\hyunsok\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> C:\APP\Java\jdk1.8.0_77\jre\lib\rt.jar
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> C:\Users\hyunsok\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> C:\APP\Java\jdk1.8.0_77\jre\lib\rt.jar
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> C:\Users\hyunsok\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> C:\APP\Java\jdk1.8.0_77\jre\lib\rt.jar
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> C:\Users\hyunsok\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> C:\APP\Java\jdk1.8.0_77\jre\lib\rt.jar
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> C:\Users\hyunsok\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+4 items
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\common\Logger.scala
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+1 items
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala
+inheritance external dependencies:
+0 items
+class names:
+26 items
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\common\Logger.scala -> com.enshahar.turtle.common.Logger
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> com.enshahar.turtle.oo.Turtle
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> com.enshahar.turtle.oo.Turtle$Logger
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> com.enshahar.turtle.unit.Angle
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> com.enshahar.turtle.unit.Angle$
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> com.enshahar.turtle.unit.Angle$AngleIsOrdered$
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> com.enshahar.turtle.unit.AngleConversion
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> com.enshahar.turtle.unit.AngleConversion$class
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> com.enshahar.turtle.unit.AngleUnit
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> com.enshahar.turtle.unit.AngleUnit$
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> com.enshahar.turtle.unit.DEGREE
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> com.enshahar.turtle.unit.DEGREE$
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> com.enshahar.turtle.unit.MINUTE
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> com.enshahar.turtle.unit.MINUTE$
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> com.enshahar.turtle.unit.RADIAN
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> com.enshahar.turtle.unit.RADIAN$
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> com.enshahar.turtle.unit.SECOND
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> com.enshahar.turtle.unit.SECOND$
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> com.enshahar.turtle.unit.package
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> com.enshahar.turtle.unit.package$
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> com.enshahar.turtle.unit.package$AngleDouble
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> com.enshahar.turtle.unit.package$AngleDouble$
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> com.enshahar.turtle.unit.package$AngleInt
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> com.enshahar.turtle.unit.package$AngleInt$
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> com.enshahar.turtle.unit.package$AngleLong
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> com.enshahar.turtle.unit.package$AngleLong$
+used names:
+176 items
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\common\Logger.scala -> AnyRef
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\common\Logger.scala -> Predef
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\common\Logger.scala -> String
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\common\Logger.scala -> Unit
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\common\Logger.scala -> com
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\common\Logger.scala -> common
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\common\Logger.scala -> enshahar
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\common\Logger.scala -> scala
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\common\Logger.scala -> turtle
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> *
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> +
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> <init>
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> AnyRef
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> Color
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> Double
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> Int
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> Logger
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> Position
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> Predef
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> String
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> StringContext
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> StringOps
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> Tuple2
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> Tuple3
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> Turtle
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> Unit
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> _1
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> _2
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> a
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> angle
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> apply
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> arg$macro$1
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> calcPosition
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> collection
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> color
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> com
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> common
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> cos
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> d
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> distance
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> enshahar
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> f
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> format
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> immutable
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> logger
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> math
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> oo
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> p
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> package
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> penOn
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> position
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> scala
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> sin
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> turtle
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> x
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> y
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> /
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> <init>
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> Angle
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> AngleConversion
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> AngleIsOrdered
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> AngleUnit
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> Any
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> AnyRef
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> DEGREE
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> Double
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> MINUTE
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> Ordering
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> Predef
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> RADIAN
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> SECOND
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> String
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> StringContext
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> StringOps
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> a
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> angleIn
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> apply
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> arg$macro$2
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> arg$macro$3
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> b
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> collection
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> com
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> compare
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> convert
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> degrees
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> doubleWrapper
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> enshahar
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> f
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> format
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> immutable
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> minutes
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> name
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> package
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> radians
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> scala
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> seconds
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> toDegrees
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> toDouble
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> toMinutes
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> toRadians
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> toSeconds
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> turtle
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> u
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> unit
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> unitString
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> value
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> *
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> /
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> <init>
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> ==
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> AngleUnit
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> AnyRef
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> DEGREE
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> Double
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> MINUTE
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> Predef
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> Product
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> RADIAN
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> SECOND
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> ScalaRunTime
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> Serializable
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> String
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> com
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> convert
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> enshahar
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> from
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> name
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> runtime
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> scala
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> to
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> toDegree
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> toDegrees
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> toMinute
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> toMinutes
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> toRadian
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> toRadians
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> toSecond
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> toSeconds
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> toString
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> turtle
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> typedProductIterator
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> unit
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> value
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> $this
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> &&
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> <init>
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> ==
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> Angle
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> AngleConversion
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> AngleDouble
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> AngleInt
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> AngleLong
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> AngleUnit
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> AnyRef
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> AnyVal
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> Double
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> Int
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> Long
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> angleIn$extension
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> apply
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> asInstanceOf
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> com
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> com$enshahar$turtle$unit$AngleDouble$$n
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> com$enshahar$turtle$unit$AngleInt$$n
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> com$enshahar$turtle$unit$AngleLong$$n
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> enshahar
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> hashCode
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> implicitConversions
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> isInstanceOf
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> language
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> n
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> package
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> scala
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> toDouble
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> turtle
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> unit
+product stamps:
+26 items
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\common\Logger.class -> lastModified(1471044707961)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\oo\Turtle$Logger.class -> lastModified(1471044707971)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\oo\Turtle.class -> lastModified(1471044707969)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\Angle$.class -> lastModified(1471044707979)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\Angle$AngleIsOrdered$.class -> lastModified(1471044707984)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\Angle.class -> lastModified(1471044707977)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\AngleConversion$class.class -> lastModified(1471044707989)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\AngleConversion.class -> lastModified(1471044707986)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\AngleUnit$.class -> lastModified(1471044707995)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\AngleUnit.class -> lastModified(1471044707993)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\DEGREE$.class -> lastModified(1471044708002)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\DEGREE.class -> lastModified(1471044707998)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\MINUTE$.class -> lastModified(1471044708008)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\MINUTE.class -> lastModified(1471044708005)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\package$.class -> lastModified(1471044708028)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\package$AngleDouble$.class -> lastModified(1471044708032)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\package$AngleDouble.class -> lastModified(1471044708038)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\package$AngleInt$.class -> lastModified(1471044708047)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\package$AngleInt.class -> lastModified(1471044708043)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\package$AngleLong$.class -> lastModified(1471044708050)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\package$AngleLong.class -> lastModified(1471044708055)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\package.class -> lastModified(1471044708025)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\RADIAN$.class -> lastModified(1471044708015)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\RADIAN.class -> lastModified(1471044708011)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\SECOND$.class -> lastModified(1471044708021)
+D:\book\ScalaTurtle\ScalarTurtle\target\scala-2.11\classes\com\enshahar\turtle\unit\SECOND.class -> lastModified(1471044708017)
+source stamps:
+5 items
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\common\Logger.scala -> hash(913286d173aae37b8ae4f26a15b95c5b4a1fc397)
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> hash(245d74d673d42a7f43cedcf2fde83af11355fabf)
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> hash(680ecefdc899fcdf1d81dcd95421c9014825938b)
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> hash(2c9bb6744957b93acef728853ee37dc8f1a34898)
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> hash(a7f72c9470cb00b6c7fb517f6f01f942ba2cb9b2)
+binary stamps:
+2 items
+C:\APP\Java\jdk1.8.0_77\jre\lib\rt.jar -> lastModified(1458821340930)
+C:\Users\hyunsok\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar -> lastModified(1457105192000)
+class names:
+2 items
+C:\APP\Java\jdk1.8.0_77\jre\lib\rt.jar -> java.lang.Object
+C:\Users\hyunsok\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar -> scala.AnyVal
+internal apis:
+5 items
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\common\Logger.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDYSyPGAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cFvytVt0AAZub3RpZnlzcQB+AAzyml6jdAAEd2FpdHNxAH4ADFyTZF90AA0kYXNJbnN0YW5jZU9mc3EAfgAM1ecDPHQABmVxdWFsc3NxAH4ADGaR4Ep0AAxhc0luc3RhbmNlT2ZzcQB+AAx3dRKFdAAMc3luY2hyb25pemVkc3EAfgAM6RKjMnQABkxvZ2dlcnNxAH4ADEPknLt0AA0kaXNJbnN0YW5jZU9mc3EAfgAMIOHzJ3QACW5vdGlmeUFsbHNxAH4ADG0I4TB0AAxpc0luc3RhbmNlT2ZzcQB+AAzOjHu5dAAFYXBwbHlzcQB+AAyxEkPNdAACPT1zcQB+AAzsOAf9dAAFY2xvbmVzcQB+AAwaEL+fdAAIdG9TdHJpbmdzcQB+AAw2qbpQdAACIT1zcQB+AAzHTuhudAAIZ2V0Q2xhc3NzcQB+AAxcnZ6qdAACbmVzcQB+AAyrxRAxdAACZXFzcQB+AAx8NduXdAACIyNzcQB+AAzm6LO3dAAIZmluYWxpemVzcQB+AAw5yKY0dAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBBeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHABdAAhY29tLmVuc2hhaGFyLnR1cnRsZS5jb21tb24uTG9nZ2VydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAFVHJhaXR1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBaeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBZAHBzcQB+AF5zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQUwACWluaGVyaXRlZHEAfgBBTAAHcGFyZW50c3EAfgBBeHEAfgBic3EAfgBZAHBzcQB+AF51cQB+ADwAAAAAc3EAfgBZAHBzcQB+AF51cQB+ADwAAAAAc3EAfgBZAHBzcQB+AF51cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGF0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AH50AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AH9zcQB+AHJ0AANBbnlzcQB+AHZzcQB+AHl1cQB+AHwAAAACc3EAfgB+dAAFc2NhbGFxAH4AhXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAEc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQADGNvbS5lbnNoYWhhcnNxAH4Aj3QAGmNvbS5lbnNoYWhhci50dXJ0bGUuY29tbW9uc3EAfgCPdAADY29tc3EAfgCPdAATY29tLmVuc2hhaGFyLnR1cnRsZXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVoEYwPt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA6RDpcYm9va1xTY2FsYVR1cnRsZVxTY2FsYXJUdXJ0bGVcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFJEyhtFzquN7iuTyahW5XFtKH8OX
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAyT2oCAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAH3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cO8wwBZ0AAZub3RpZnlzcQB+AAwSkyQ2dAAEbW92ZXNxAH4ADHlKcJ50AAR3YWl0c3EAfgAMmy+K5HQADSRhc0luc3RhbmNlT2ZzcQB+AAwifl1edAAFcGVuT25zcQB+AAwdDjUwdAAGZXF1YWxzc3EAfgAMSEASv3QABWFuZ2xlc3EAfgAMf1FfBHQACFBvc2l0aW9uc3EAfgAM0Dm7C3QADGFzSW5zdGFuY2VPZnNxAH4ADKO95T50AAxzeW5jaHJvbml6ZWRzcQB+AAy8Yrl5dAAGTG9nZ2Vyc3EAfgAM2X+6jHQADSRpc0luc3RhbmNlT2ZzcQB+AAyXh2EpdAAFY29sb3JzcQB+AAyS7D1wdAAJbm90aWZ5QWxsc3EAfgAMXAiNk3QADGlzSW5zdGFuY2VPZnNxAH4ADOwNqrN0AAY8aW5pdD5zcQB+AAxoo5TTdAACPT1zcQB+AAw0+b/PdAAFY2xvbmVzcQB+AAya8/GEdAAGVHVydGxlc3EAfgAMgcduJ3QACHBvc2l0aW9uc3EAfgAMNeyvaHQACHRvU3RyaW5nc3EAfgAMpW2yfXQAAiE9c3EAfgAM4iK9XnQACGdldENsYXNzc3EAfgAMCKDG8HQADGNhbGNQb3NpdGlvbnNxAH4ADJy9g/d0AAVDb2xvcnNxAH4ADPPcKzx0AAJuZXNxAH4ADEGZIx90AAJlcXNxAH4ADHU/RC50AANsb2dzcQB+AAwCU4/6dAACIyNzcQB+AAzI8b6BdAAIZmluYWxpemVzcQB+AAx/piPmdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBVeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAdY29tLmVuc2hhaGFyLnR1cnRsZS5vby5UdXJ0bGV1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AG54cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AG0AcHNxAH4AcnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBVTAAJaW5oZXJpdGVkcQB+AFVMAAdwYXJlbnRzcQB+AFV4cQB+AHZzcQB+AG0AcHNxAH4AcnVxAH4AUAAAAABzcQB+AG0AcHNxAH4AcnVxAH4AUAAAAABzcQB+AG0AcHNxAH4AcnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AdXQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AdXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AknQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Ak3NxAH4AhnQAA0FueXNxAH4AinNxAH4AjXVxAH4AkAAAAAJzcQB+AJJ0AAVzY2FsYXEAfgCZdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAARzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAMY29tLmVuc2hhaGFyc3EAfgCjdAADY29tc3EAfgCjdAATY29tLmVuc2hhaGFyLnR1cnRsZXNxAH4Ao3QAFmNvbS5lbnNoYWhhci50dXJ0bGUub29zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVaBGMD7dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAOkQ6XGJvb2tcU2NhbGFUdXJ0bGVcU2NhbGFyVHVydGxlXHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQkXXTWc9Qqf0PO3PL96DrxE1X6vw==
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAZRtuEAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwoBxhKXQADkFuZ2xlSXNPcmRlcmVkc3EAfgALfVj2h3QADW1rT3JkZXJpbmdPcHN1cQB+AAkAAABCc3EAfgAL3I/ItnQABm5vdGlmeXNxAH4AC8EMtcx0AANyYWRzcQB+AAvNkpCvdAAPQW5nbGVDb252ZXJzaW9uc3EAfgALhdDDOXQABHdhaXRzcQB+AAvohepodAACPD1zcQB+AAshsbRHdAANJGFzSW5zdGFuY2VPZnNxAH4AC0zUJPR0AAl0b0RlZ3JlZXNzcQB+AAsyujPqdAAHZGVncmVlc3NxAH4ACyq22fJ0AAZkZWdyZWVzcQB+AAuSDCnVdAAGZXF1YWxzc3EAfgALbwcMCnQACXRvU2Vjb25kc3NxAH4AC/kagLJ0AAZtaW51dGVzcQB+AAuQrUK4dAAMYXNJbnN0YW5jZU9mc3EAfgALQ6cJVXQAEHRoZW5Db21wYXJpbmdJbnRzcQB+AAs6AcMgdAABPHNxAH4AC8PYjwR0AAdzZWNvbmRzc3EAfgALDBl1rXQADHN5bmNocm9uaXplZHNxAH4AC2LPK+V0AAp1bml0U3RyaW5nc3EAfgAL5hnxTXQADSRpc0luc3RhbmNlT2ZzcQB+AAsFwcvzdAACPj1zcQB+AAtdo3qWdAADbWluc3EAfgALilm1RnQAB3JhZGlhbnNzcQB+AAtrqmbtdAAJbm90aWZ5QWxsc3EAfgAL1GJw4HQAC3JlYWRSZXNvbHZlc3EAfgALi7bJB3QAA3NlY3NxAH4AC3CEoCl0AAxpc0luc3RhbmNlT2ZzcQB+AAs/ZKgGdAAHcmV2ZXJzZXNxAH4AC6NHdcd0AAdtaW51dGVzc3EAfgALzimdFHQAB2FuZ2xlSW5zcQB+AAvwkkhbdAAGc2Vjb25kc3EAfgALazY2jHQABjxpbml0PnNxAH4AC8ltAgd0AANtYXhzcQB+AAuy5/MtdAADZGVnc3EAfgALfc/H5XQAAm9uc3EAfgAL0vyi6HQABWFwcGx5c3EAfgALJKBZzXQAAj09c3EAfgALYIgLcHQADXRoZW5Db21wYXJpbmdzcQB+AAvLmd+OdAAFY2xvbmVzcQB+AAvugOR1dAAEbHRlcXNxAH4AC6gB7hd0AAp0cnlDb21wYXJlc3EAfgALGQi503QABiRpbml0JHNxAH4ACwVzXlV0AAl0b1JhZGlhbnNzcQB+AAs6VQ9RdAATdGhlbkNvbXBhcmluZ0RvdWJsZXNxAH4AC3fOwDB0AAVBbmdsZXNxAH4AC/qvoGh0AAh0b1N0cmluZ3NxAH4AC4C4wyV0AAIhPXNxAH4ACzQnoaV0AAR1bml0c3EAfgALMgHZ7HQABWVxdWl2c3EAfgALmfpbH3QACGdldENsYXNzc3EAfgALVo9Td3QABnRvVW5pdHNxAH4AC2PgV+Z0ABF0aGVuQ29tcGFyaW5nTG9uZ3NxAH4ACw9lRjR0AAJuZXNxAH4ACw+a7uR0AAZyYWRpYW5zcQB+AAtzt+FpdAAJdG9NaW51dGVzc3EAfgALxi7Fc3QAAmx0c3EAfgALL6UFKnQAAmd0c3EAfgALUK2ynnQACHJldmVyc2Vkc3EAfgALQC9FiHQAA09wc3NxAH4ACxcQMIh0AAV2YWx1ZXNxAH4AC4dgvqt0AAJlcXNxAH4AC91D24B0AAdjb21wYXJlc3EAfgALk5MXqHQAAT5zcQB+AAtpMU/8dAACIyNzcQB+AAvklB0kdAAIZmluYWxpemVzcQB+AAtPAbwDdAAIaGFzaENvZGVzcQB+AAuhaTUddAAEZ3RlcXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAANzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AJ94cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0AB5jb20uZW5zaGFoYXIudHVydGxlLnVuaXQuQW5nbGV1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgC4eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgC3AHBzcQB+ALxzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4An0wACWluaGVyaXRlZHEAfgCfTAAHcGFyZW50c3EAfgCfeHEAfgDAc3EAfgC3AHBzcQB+ALx1cQB+AJoAAAAAc3EAfgC3AHBzcQB+ALx1cQB+AJoAAAAAc3EAfgC3AHBzcQB+ALx1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AL90AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AL9zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+ANx0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AN1zcQB+ANB0AANBbnlzcQB+ANRzcQB+ANd1cQB+ANoAAAACc3EAfgDcdAAFc2NhbGFxAH4A43NxAH4AnHEAfgCpdXEAfgCqAAAAAHNxAH4ArAR0AB5jb20uZW5zaGFoYXIudHVydGxlLnVuaXQuQW5nbGV1cQB+AK8AAAAAfnEAfgCxdAAIQ2xhc3NEZWZ1cQB+ALUAAAAAc3EAfgC3AHBzcQB+ALxxAH4AwXNxAH4AtwBwc3EAfgC8c3EAfgDEc3EAfgC3AHBzcQB+ALx1cQB+AJoAAAAAc3EAfgC3AHBzcQB+ALx1cQB+AJoAAAAAc3EAfgC3AHBzcQB+ALx1cQB+AM4AAAACc3EAfgDQcQB+ANNzcQB+ANRzcQB+ANd1cQB+ANoAAAADc3EAfgDccQB+AN9zcQB+ANxxAH4A4XEAfgDjc3EAfgDQcQB+AOVzcQB+ANRzcQB+ANd1cQB+ANoAAAACc3EAfgDccQB+AOpxAH4A43NxAH4AnHEAfgCpdXEAfgCqAAAAAHNxAH4ArAF0AChjb20uZW5zaGFoYXIudHVydGxlLnVuaXQuQW5nbGVDb252ZXJzaW9udXEAfgCvAAAAAH5xAH4AsXQABVRyYWl0dXEAfgC1AAAAAHNxAH4AtwBwc3EAfgC8cQB+AMFzcQB+ALcAcHNxAH4AvHNxAH4AxHNxAH4AtwBwc3EAfgC8dXEAfgCaAAAAAHNxAH4AtwBwc3EAfgC8dXEAfgCaAAAAAHNxAH4AtwBwc3EAfgC8dXEAfgDOAAAAAXNxAH4A0HEAfgDlc3EAfgDUc3EAfgDXdXEAfgDaAAAAAnNxAH4A3HEAfgDqcQB+AON1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABHNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgAMeHB0ABhjb20uZW5zaGFoYXIudHVydGxlLnVuaXRzcQB+ASl0AAxjb20uZW5zaGFoYXJzcQB+ASl0AANjb21zcQB+ASl0ABNjb20uZW5zaGFoYXIudHVydGxlc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFWgRjA+3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0ADpEOlxib29rXFNjYWxhVHVydGxlXFNjYWxhclR1cnRsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUaA7O/ciZ/N8dgdzZVCHJAUglk4s=
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBjlMZmAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAALnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cBmxinJ0AAZub3RpZnlzcQB+AAwcwtcrdAAEbmFtZXNxAH4ADH/ovGx0AAtmcm9tUmFkaWFuc3NxAH4ADLI8TxN0AAR3YWl0c3EAfgAMj6F9VHQADSRhc0luc3RhbmNlT2ZzcQB+AAwv894tdAAIdG9SYWRpYW5zcQB+AAyEHUKQdAAJQW5nbGVVbml0c3EAfgAMAFKdhHQACXRvRGVncmVlc3NxAH4ADHLjRoV0AAh0b01pbnV0ZXNxAH4ADI7wqfh0AAxwcm9kdWN0QXJpdHlzcQB+AAyl/elFdAAGZXF1YWxzc3EAfgAM4GfG3HQACXRvU2Vjb25kc3NxAH4ADJZPq+x0AAxhc0luc3RhbmNlT2ZzcQB+AAz4sP3sdAAMc3luY2hyb25pemVkc3EAfgAMk8uLsnQADSRpc0luc3RhbmNlT2ZzcQB+AAy1Y4Y+dAAIY2FuRXF1YWxzcQB+AAx4FNgKdAANcHJvZHVjdFByZWZpeHNxAH4ADNS64HZ0AAlub3RpZnlBbGxzcQB+AAyjLyIudAALcmVhZFJlc29sdmVzcQB+AAyERIscdAALZnJvbURlZ3JlZXNzcQB+AAyF4v9YdAAMaXNJbnN0YW5jZU9mc3EAfgAMO+OMRXQABjxpbml0PnNxAH4ADAKU2c90AAVhcHBseXNxAH4ADDrD0b10AAI9PXNxAH4ADB14wZB0AAtmcm9tU2Vjb25kc3NxAH4ADJ0tzDt0AAVjbG9uZXNxAH4ADGCRpgJ0AAl0b1JhZGlhbnNzcQB+AAxQn7EgdAAGU0VDT05Ec3EAfgAMSOEDn3QACHRvU3RyaW5nc3EAfgAMNfn4hHQAAiE9c3EAfgAMU/v5ZHQACGdldENsYXNzc3EAfgAMYR/aXnQAC2Zyb21NaW51dGVzc3EAfgAMeuu5VHQAAm5lc3EAfgAMvAsFR3QACXRvTWludXRlc3NxAH4ADKo4Y210AAh0b0RlZ3JlZXNxAH4ADGubpn90AAJlcXNxAH4ADIjCE+J0AAh0b1NlY29uZHNxAH4ADDfWD0V0AAdjb252ZXJ0c3EAfgAMsMDVmXQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADPSgBL50AAZNSU5VVEVzcQB+AAzaewUpdAAGUkFESUFOc3EAfgAMs83X0nQAAiMjc3EAfgAMRSMnVnQACGZpbmFsaXplc3EAfgAMxaVB2HQADnByb2R1Y3RFbGVtZW50c3EAfgAM7U6pcHQACGhhc2hDb2Rlc3EAfgAMvq1BZ3QABkRFR1JFRXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAZzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AHN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAl0ACJjb20uZW5zaGFoYXIudHVydGxlLnVuaXQuQW5nbGVVbml0dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgCMeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCLAHBzcQB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
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBooqyvAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAADc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwhSHr3nQACEFuZ2xlSW50c3EAfgALCxhBV3QACUFuZ2xlTG9uZ3NxAH4AC0l4YjZ0AAtBbmdsZURvdWJsZXVxAH4ACQAAAClzcQB+AAtkMuYLdAAGbm90aWZ5c3EAfgALfuWBTXQAB3BhY2thZ2VzcQB+AAsnuFzZdAADcmFkc3EAfgAL+BhQ1nQABHdhaXRzcQB+AAvtc50BdAANJGFzSW5zdGFuY2VPZnNxAH4AC/498Fp0AAFuc3EAfgAL8Rj+BnQAB2RlZ3JlZXNzcQB+AAug9O1LdAAGZGVncmVlc3EAfgALX/7kJnQABmVxdWFsc3NxAH4AC7TX4id0AAZtaW51dGVzcQB+AAs2Q/q+dAAMYXNJbnN0YW5jZU9mc3EAfgALT3ECHHQAB3NlY29uZHNzcQB+AAvNO1AEdAAMc3luY2hyb25pemVkc3EAfgALjQPvyHQADSRpc0luc3RhbmNlT2ZzcQB+AAtkFnnbdAAIQW5nbGVJbnRzcQB+AAtgLv4IdAADbWluc3EAfgALX3JQHHQAB3JhZGlhbnNzcQB+AAtMmQ/gdAAJQW5nbGVMb25nc3EAfgALT43I13QACW5vdGlmeUFsbHNxAH4AC4fCYpZ0AANzZWNzcQB+AAsqrHJOdAAMaXNJbnN0YW5jZU9mc3EAfgALr5WwF3QAB21pbnV0ZXNzcQB+AAsC5rV+dAAHYW5nbGVJbnNxAH4AC9iKwWh0AAZzZWNvbmRzcQB+AAtRI02TdAAGPGluaXQ+c3EAfgALHu8CynQAA2RlZ3NxAH4AC01poLl0AAtBbmdsZURvdWJsZXNxAH4AC23JpI90AAI9PXNxAH4AC9s6LNZ0AAVjbG9uZXNxAH4AC1rkFep0ABBlcXVhbHMkZXh0ZW5zaW9uc3EAfgAL+SuXPXQACHRvU3RyaW5nc3EAfgALzpjLOnQAAiE9c3EAfgALuYMGbXQACGdldENsYXNzc3EAfgALfjNhS3QAAm5lc3EAfgALW1PAY3QABnJhZGlhbnNxAH4AC2LWhfx0ABJoYXNoQ29kZSRleHRlbnNpb25zcQB+AAsAZBS2dAACZXFzcQB+AAsBpYIadAACIyNzcQB+AAvUuH8TdAAIZmluYWxpemVzcQB+AAuq0PDedAAIaGFzaENvZGVzcQB+AAtLr5PNdAARYW5nbGVJbiRleHRlbnNpb25zcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBveHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAgY29tLmVuc2hhaGFyLnR1cnRsZS51bml0LnBhY2thZ2V1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgCIeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCHAHBzcQB+AIxzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4Ab0wACWluaGVyaXRlZHEAfgBvTAAHcGFyZW50c3EAfgBveHEAfgCQc3EAfgCHAHBzcQB+AIx1cQB+AGoAAAAAc3EAfgCHAHBzcQB+AIx1cQB+AGoAAAAAc3EAfgCHAHBzcQB+AIx1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AI90AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AI9zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AKx0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AK1zcQB+AKB0AANBbnlzcQB+AKRzcQB+AKd1cQB+AKoAAAACc3EAfgCsdAAFc2NhbGFxAH4As3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAEc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQAGGNvbS5lbnNoYWhhci50dXJ0bGUudW5pdHNxAH4AvXQADGNvbS5lbnNoYWhhcnNxAH4AvXQAA2NvbXNxAH4AvXQAE2NvbS5lbnNoYWhhci50dXJ0bGVzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVaBGMD7dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAMTAAPc291cmNlRGlyZWN0b3J5cQB+AAx4cHQAOkQ6XGJvb2tcU2NhbGFUdXJ0bGVcU2NhbGFyVHVydGxlXHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSn9yyUcMsAtsf7UX9vAflCuiy5sg==
+external apis:
+0 items
+source infos:
+5 items
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\common\Logger.scala -> 
+AAAAAAAAAAA=
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\oo\Turtle.scala -> 
+AAAAAAAAAAA=
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\Angle.scala -> 
+AAAAAAAAAAA=
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\AngleUnit.scala -> 
+AAAAAAAAAAA=
+D:\book\ScalaTurtle\ScalarTurtle\src\main\scala\com\enshahar\turtle\unit\package.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVoEYwPt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOkQ6XGJvb2tcU2NhbGFUdXJ0bGVcU2NhbGFyVHVydGxlXHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEv
